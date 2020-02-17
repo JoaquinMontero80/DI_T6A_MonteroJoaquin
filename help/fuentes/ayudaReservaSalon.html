@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+  <head>
+    <title>Reservas en el salon Habana</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <img src="logomonte.png" width="150" height="100">
+    <h2 style="color:MediumSeaGreen;">
+      Ayuda para la reserva en el Salon Habana
+    </h2>
+
+    <p>
+      Para comprender la ventada de reserva salon habana, lo principal a tener en cuenta seran tres
+      puntos mencionados a continuación </br> con sus respectivas funcionalidades.</br> Los punto
+      son la <strong style="color:MediumSeaGreen;" >gestion del cliente</strong>
+      que será insertado en la base de datos con la informacion obtenida de la
+      <strong style="color:MediumSeaGreen;" > gestión del salón </strong></br>que haya hecho.
+      La apliacion por lo general ya consta de funcionalidades que facilitan la usabilidad
+      de los apartados (como tooltips,</br> simplificacion de informacion requerida, pantallas emergentes con Los
+      consiguientes fallos, etc...).
+    </p>
+    <p>
+
+      En los siguientes puntos detallaremos la funcionalidad de los componentes y
+      como emplearlos adecuadamente :</br>
+
+    </p>
+
+
+    <ul>
+      <li style="font-size:25px;">
+        <strong>Gestion del cliente</strong>
+      </li>
+
+          <p>
+            Para el apartado de clientes, la funcion a cometer es obtener los datos
+            introducidos por teclado por el usuario</br> para que mas tarde cuando se haya
+            realizado la <strong style="color:MediumSeaGreen;" > gestión del salón </strong>
+            se inserte toda la informacion en la base de datos.</br>
+
+          </br>Para que se puedan introducir datos primero se debera introducir un codigo
+            al dni y si este ya existe se generan los datos</br> en los campos que ya son
+            existentes en la base de datos, de lo contrario si no existe dicho dni
+            en la base de datos </br>aparecerán en disponibles los campos para que el usuario
+            pueda introducir datos en ellos.</br>
+
+          </br><i>Todos los campos de este apartado son obligatorios y no permitira realizar
+            la reserva sin la inserción de los mismos</i>
+          </p>
+      <li style="font-size:25px;">
+        <strong>Gestion de la reserva </strong>
+      </li>
+        <p>
+          El apartado de gestion de los datos que desea realizar la reserva se basa
+          segun el tipo de evento que seleccione,</br> segun el evento seleccionado se
+          podrán modificar algunos campos y otros no. Para todos sera obligatorio
+          seleccionar</br> una fecha que sea mayor a la fecha actual.</br>
+
+        </br><i>Todos los campos de este apartado son obligatorios y no permitira realizar
+          la reserva sin la inserción de los mismos</i>
+
+        </p>
+      <li style="font-size:25px;">
+        <strong>Gestion de los botones</strong>
+      </li>
+
+      <p>
+        Para que final mente podamos realizar la reserva, el usuario habra tenido
+        que rellenar todos los campos obliglatorios</br> con los formatos indicados.
+        Si es así el usuario podrá realizar la reserva simplemente seleccionando
+        el boton que</br> aparece en la interfaz como <strong><i>aceptar</i></strong>,
+        Ademas antes de realizar dicha reserva el programa se asegura de si preguntando</br>
+        si estas seguro de realizar la reserva.</br>
+
+        </br>Existen dos botones mas <strong><i>cancelar</i></strong> y
+        <strong><i>aceptar</i></strong> el boton de <strong>limpiar</strong>
+        permite que el usuario quizas decide comenzar </br> de nuevo la reserva y se
+        limpian los datos de los campos. el boton <strong>cancelar</strong>
+        simplemente te permite volver al menu </br>principal sin realizar ninguna reserva.
+      </p>
+    </ul>
+
+    <p>
+
+      En esta ventan existe un componente denominado temporizador que su funcion es:</br>
+
+      </br>evitar que el usuario tome mas tiempo del necesario y por lo tanto solo permite
+      que usuario gestione una reserva duran 60s </br>y tras ese tiempo el boton de aceptar
+      aparece como deshabilitado impidendo asi, realizar una reserva.
+
+    </p>
+
+  </body>
+
+</html>

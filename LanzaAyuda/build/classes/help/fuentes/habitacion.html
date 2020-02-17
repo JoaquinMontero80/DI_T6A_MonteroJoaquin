@@ -1,0 +1,58 @@
+<h1><u> Habitaciones </u></h1>
+
+<p>
+  <h2><b> Datos del cliente </b> </h2>
+      <b> - DNI:</b></br>
+      El campo DNI espera que el usuario introduzca 8 caracteres numéricos y una letra mayúscula.
+      Cuando se introduzca un DNI correcto y pulse intro, si existe el contacto aparecerán
+      todos sus datos en las correspondientes "celdas" de Datos del cliente. En caso contrario,
+      que no exista, se habilitarán todos los textfields para que pueda introducirse el nuevo usuario.
+      </br>
+      <b> - Nombre: </b></br>
+      Debe rellenarse con el nombre completo del cliente.
+      </br><b> - Localidad: </b></br>
+      Precisará el nombre de la localidad de procedencia del cliente.
+      </br><b> - Provincia: </b></br>
+      Seleccionar desde la lista desplegable la provincia deseada.
+      </br><b> - Direccion: </b></br>
+      Almacenará la dirección de procedencia del cliente.
+
+  </br></br>
+  <h2><b> Datos de la reserva</b></h2>
+      <b> - Selector de fecha: </b></br>
+      Los dos selectores de fechas que encontramos están pensados de manera que el izquierdo sea
+      la fecha de entrada al hotel y el derecho la fecha de salida del hotel. No estará permitido
+      que la fecha de llegada sea posterior a la de salida, ni que la de salida sea anterior a la
+      de llegada.
+      </br><b> - Numero de habitaciones: </b></br>
+      Este componente permitirá incrementar o disminuir su valor, nunca por debajo de 0 ni por encima
+      de 100. Se refiere a la cantidad de habitaciones que un mismo cliente puede reservar.
+      </br><b> - Tipo de habitación: </b></br>
+      Se trata de una lista desplegable, la cual acepta cinco opciones, los tipos de habitaciones que
+      contiene el hotel, por defecto, se selecciona la opción más solicitada por los clientes.
+      </br><b> - Regimen </b></br>
+      Se contemplan 3 radiobuttons para seleccionar que tipo de pensión tendrá el cliente, de forma
+      que dependiendo de lo seleccionado, tendrá un tipo de régimen. Por defecto está seleccionado el
+      régimen mínimo aceptado por el hotel, Alojamiento y desayuno.
+      </br><b> - Fumador </b></br>
+      Dicha pestaña se seleccionará solo y exclusivamente si el cliente quiere fumar dentro de la
+      habitación reservada. Incluye un pequeño texto que cita el apartado de la ley de sanidad referido
+      a dicha conducta en lugares públicos.
+
+  </br></br>
+  <h2><b> Botones </b></h2>
+      <b> - Botón Limpiar: </b></br>
+      Al pulsar el botón limpiar se lanzará una ventana de confirmación de la acción a realizar. Se encargará
+      de "vaciar" todos los campos de los formularios, para que el cliente pueda empezar de cero con su reserva.
+      </br><b> - Botón Cancelar: </b></br>
+      Dicho botón eliminará los datos de la reserva y cerrará la ventana devolviendo al cliente al menú
+      principal de la aplicación.
+      </br><b> - Botón Aceptar: </b></br>
+      Al primer click lanzará una ventana de confirmación por si el usuario falló y le dió de manera accidental
+      al botón aceptar, si la respuesta es afirmativa, volveremos a la ventana de "Reservas de habitación" para que
+      termine de realizar su reserva. Pero si se trataba de un click a propósito desencadenará comprobaciones en
+      todos los campos y opciones de la reservar que el usuario no haya marcado y le avisará para que introduzca
+      correctamente los campos. Si todos los campos están correctos, dicho botón guardará la reserva en nuestra
+      base de datos.
+
+</p>

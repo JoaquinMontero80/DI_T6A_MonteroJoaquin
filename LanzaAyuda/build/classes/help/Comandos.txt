@@ -1,0 +1,3 @@
+java -jar javahelp\bin\jhindexer.jar fuentes
+java -jar javahelp\bin\jhsearch.jar JavaHelpSearch
+java -jar javahelp\bin\hsviewer.jar
